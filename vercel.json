@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "build": {
+    "env": {
+      "REACT_APP_API_URL": "https://talent-pool-kxb02qrug-yasins-projects-69e68d35.vercel.app"
+    }
+  }
+} 
